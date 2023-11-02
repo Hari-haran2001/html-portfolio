@@ -2,6 +2,7 @@
 
 :root {
   --primary: #12bdff;
+  --primary-hover: #045d80;
   --dark-primary: #1b1f24;
 }
 
@@ -27,33 +28,98 @@ header a .logo {
   font-weight: bold;
   letter-spacing: 2px;
 }
-ul {
+header ul {
   display: flex;
   list-style: none;
 }
-ul li {
+header ul li {
   margin: 20px;
 }
-ul li a {
+header ul li a {
   color: aliceblue;
   text-decoration: none;
 }
 
-ul li a:hover {
+header ul li a:hover {
   color: #12bdff;
 }
 
-header button {
-  padding: 10px 20px;
-  font-weight: 800;
-  color: var(--primary);
-  cursor: pointer;
+/* section: Hero Homepage*/
+
+section.hero-section {
   background-color: var(--dark-primary);
-  border: 1px solid var(--primary);
-  border-radius: 10px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding: 20px 120px 0 240px;
 }
 
-header button:hover {
+.hero-section__title {
+  font-size: 48px;
+  font-weight: 900;
+}
+.hero-section__title > span {
+  color: var(--primary);
+}
+
+.hero-section__desc {
+  color: #97a8aa;
+}
+
+.social-icons {
+  margin: 20px 0;
+}
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons li > a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+ul.social-icons {
+  display: flex;
+  list-style: none;
+}
+
+.social-icons li > a:hover {
+  color: var(--primary);
+}
+
+/* buttons*/
+
+.hero-button button {
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.btn-primary {
+  background-color: var(--primary);
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.btn.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-dark-outlined {
+  background-color: var(--dark-primary);
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  color: var(--primary);
+  font-weight: 600;
+  box-shadow: ;
+}
+
+.btn-dark-outlined:hover {
   cursor: pointer;
   background-color: var(--primary);
   color: white;
