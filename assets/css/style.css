@@ -176,3 +176,71 @@ ul.social-icons {
 .about-section-desc li > strong {
   color: white;
 }
+
+.work-section {
+  background-color: var(--dark-primary);
+  color: white;
+  padding: 60px;
+  text-align: center;
+}
+
+.work-section-title {
+  margin-bottom: 40px;
+}
+
+.work-section-title a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.work-section-title a:hover {
+  text-decoration: underline;
+}
+
+.work-section-box-items {
+  display: flex;
+  justify-content: center;
+}
+
+.work-section-box {
+  background-color: var(--dark-primary);
+  padding: 30px;
+  /* margin: 30px; */
+  max-width: 400px;
+  text-align: left;
+}
+.work-section-box:hover {
+  background-color: #22283f;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.work-section-box p {
+  color: gray;
+  font-size: 14px;
+}
+
+.work-section-box a {
+  text-decoration: none;
+  color: burlywood;
+  margin-top: 30px;
+}
+
+.work-section-box__desc {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.work-section-box__desc p {
+  margin-top: 5px;
+}
+
+.work-section-box__icon {
+  background-color: var(--primary);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.work-section-box__icon:hover {
+  background-color: var(--primary-hover);
+}
