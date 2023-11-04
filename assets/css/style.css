@@ -23,7 +23,7 @@ header {
   align-items: center;
   color: aliceblue;
 }
-header a .logo {
+header a {
   color: var(--primary);
   font-weight: bold;
   letter-spacing: 2px;
@@ -98,7 +98,9 @@ ul.social-icons {
   border-radius: 2px;
   border: none;
   cursor: pointer;
+  margin-bottom: 10px;
 }
+/*button margin changed*/
 
 .btn.btn-primary {
   background-color: var(--primary);
@@ -128,7 +130,7 @@ ul.social-icons {
 .about-section {
   background-color: #22283f;
   color: white;
-  padding: 60px;
+  padding: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,6 +179,7 @@ ul.social-icons {
   color: white;
 }
 
+/*Work section*/
 .work-section {
   background-color: var(--dark-primary);
   color: white;
@@ -243,4 +246,47 @@ ul.social-icons {
 
 .work-section-box__icon:hover {
   background-color: var(--primary-hover);
+}
+
+/* Contact ME section*/
+
+.contact-section {
+  background-color: #22283f;
+  text-align: center;
+  color: aliceblue;
+}
+
+.contact-section h4 {
+  padding: 20px 10px;
+}
+
+.contact-section h4 > span {
+  color: var(--primary);
+}
+
+.contact-section form input,
+textarea {
+  padding: 5px 20px;
+  outline: none;
+  width: 350px;
+  border-radius: 5px;
+  /* background-color: #22283f; */
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #1b1f24;
+  color: gray;
+  padding: 10px 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: bold;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--primary);
 }
