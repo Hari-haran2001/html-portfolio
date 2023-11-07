@@ -23,6 +23,8 @@ header {
   background-color: #1b1f24;
   padding: 10px;
   display: flex;
+  position: fixed;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
   color: aliceblue;
@@ -305,7 +307,12 @@ footer a {
 
   section.hero-section {
     flex-direction: column;
-    padding: 20px 40px;
+    padding-top: 50px;
+    padding: 60px 40px 40px 40px;
+  }
+
+  section.hero-section img {
+    display: none;
   }
 
   /*About section */
